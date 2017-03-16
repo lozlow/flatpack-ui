@@ -1,0 +1,65 @@
+@import "./colors.css";
+
+.Button {
+  flex: 0 1 auto;
+  width: 90px;
+  height: 30px;
+  border: 1px solid var(--color-grey);
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 1px 0px 0px var(--color-grey-darker);/*rgba(0, 0, 0, 0.3);*/
+  outline: none;
+  cursor: not-allowed;
+  margin: 0 15px;
+}
+
+.Button + .Button {
+  margin-left: 0;
+}
+
+.Button--enabled:active {
+  position: relative;
+  top: 1px;
+  box-shadow: none;
+}
+
+.Button--enabled {
+  cursor: pointer;
+}
+
+.Button .Loader > span {
+  width: 8px;
+  height: 8px;
+}
+
+.Button--disabled {
+  color: var(--color-grey-darker);
+}
+
+.Button--primaryIntent {
+  background: var(--color-primary-intent);
+  color: #fff;
+  border-color: var(--color-primary-intent-secondary);/*#0c62ad;*/
+  box-shadow: 0px 1px 0px 0px var(--color-primary-intent-tertiary); /*#003563;*/
+}
+
+.Button--goodIntent {
+  background: var(--color-good-intent);
+  color: #fff;
+  border-color: var(--color-good-intent-secondary);/*#2d7b31;*/
+  box-shadow: 0px 1px 0px 0px var(--color-good-intent-tertiary); /*#165d1a;*/
+}
+
+.Button--warnIntent {
+  background: var(--color-warn-intent);
+  color: #fff;
+  border-color: var(--color-warn-intent-secondary);/*#c1790f;*/
+  box-shadow: 0px 1px 0px 0px var(--color-warn-intent-tertiary); /*#6d4408;*/
+}
+
+.Button--badIntent {
+  background: var(--color-bad-intent);
+  color: #fff;
+  border-color: var(--color-bad-intent-secondary);/*#b9403d; */
+  box-shadow: 0px 1px 0px 0px var(--color-bad-intent-tertiary); /*#751f1d;*/
+}

@@ -1,0 +1,10 @@
+.Content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.Content > .Content {
+  margin: 25px 0;
+}

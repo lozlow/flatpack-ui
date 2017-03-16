@@ -1,0 +1,10 @@
+@import "./colors.css";
+
+ .Heading {
+  border-bottom: 1px solid var(--color-grey);
+  display: block;
+  padding: 0 0 6px 6px;
+  margin: 10px 0 20px;
+  font-size: 1.4em;
+  font-weight: 500;
+}

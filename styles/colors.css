@@ -1,0 +1,22 @@
+:root {
+  --color-white: #fff;
+  --color-grey: #d2d2d2;
+  --color-grey-darker: color(var(--color-grey) lightness(-20%));
+  --color-black: #555;
+
+  --color-primary-intent: #1E88E5;
+  --color-primary-intent-secondary: color(var(--color-primary-intent) lightness(-20%));
+  --color-primary-intent-tertiary: color(var(--color-primary-intent-secondary) lightness(-20%));
+
+  --color-good-intent: #66BB6A;
+  --color-good-intent-secondary: color(var(--color-good-intent) lightness(-20%));
+  --color-good-intent-tertiary: color(var(--color-good-intent-secondary) lightness(-20%));
+
+  --color-warn-intent: #FFA726;
+  --color-warn-intent-secondary: color(var(--color-warn-intent) lightness(-20%));
+  --color-warn-intent-tertiary: color(var(--color-warn-intent-secondary) lightness(-20%));
+
+  --color-bad-intent: #EF5350;
+  --color-bad-intent-secondary: color(var(--color-bad-intent) lightness(-20%));
+  --color-bad-intent-tertiary: color(var(--color-bad-intent-secondary) lightness(-20%));
+}

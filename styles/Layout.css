@@ -1,0 +1,22 @@
+.Layout {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.Layout-column, .Layout-row {
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.Layout-column--grow, .Layout-row--grow {
+  flex-grow: 1;
+}
+
+.Layout-column {
+  flex-direction: column;
+}
+
+.Layout-row {
+  flex-direction: row;
+}

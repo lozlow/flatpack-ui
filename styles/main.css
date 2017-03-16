@@ -1,0 +1,9 @@
+@import "./colors.css";
+
+* {
+  color: var(--color-black);
+}
+
+body {
+  font-family: open-sans, Helvetica, Arial, sans-serif;
+}
