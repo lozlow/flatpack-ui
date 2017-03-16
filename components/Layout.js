@@ -5,16 +5,6 @@ import classnames from 'classnames'
 
 import '../styles/Layout.css'
 
-const demo = (
-  <Layout>
-    <Column render={() => <span>Sidebar</span>} width='250px' />
-    <Column>
-      <Row render={() => <span>Header</span>} height='120px' />
-      <Row render={() => <span>Main content</span>} />
-    </Column>
-  </Layout>
-)
-
 function ensureValidChildren (children) {
   const types = _.uniq(Children.map(children, (child) => child.type))
   const type = _.first(types)
